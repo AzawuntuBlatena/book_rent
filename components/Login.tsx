@@ -194,7 +194,7 @@ export default function Login({ role = 'user' }: LoginProps) {
               LOGIN
             </Button>
             <Typography variant="body2" align="center">
-              Haven't not an account? <Link href="/signup">Sign up</Link>
+              Haven&apos;t not an account? <Link href="/signup">Sign up</Link>
             </Typography>
           </Box>
         </Container>

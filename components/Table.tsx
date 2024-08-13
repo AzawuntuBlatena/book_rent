@@ -107,8 +107,8 @@ const CustomTable = () => {
           <TableHead>
             <TableRow>
 
-              {tableHead.map((head: string) =>
-                <TableCell sx={{ fontWeight: 'bold', color: 'text.secondary' }}>
+              {tableHead.map((head: string, index:number) =>
+                <TableCell key={index} sx={{ fontWeight: 'bold', color: 'text.secondary' }}>
                   {head}
                 </TableCell>
               )}

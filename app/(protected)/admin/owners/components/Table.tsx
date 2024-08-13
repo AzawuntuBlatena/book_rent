@@ -31,8 +31,8 @@ export default function OwnersTable({ ownerData }) {
     <Table stickyHeader aria-label="sticky table">
       <TableHead>
         <TableRow>
-          {listOfOwnersTableHead.map(head =>
-            <TableCell sx={{ fontWeight: 'bold', color: 'text.secondary' }}>{head}</TableCell>
+          {listOfOwnersTableHead.map((head,index: number) =>
+            <TableCell key={index} sx={{ fontWeight: 'bold', color: 'text.secondary' }}>{head}</TableCell>
           )}
         </TableRow>
       </TableHead>
