@@ -1,6 +1,7 @@
 "use client"
 import { Box, Card, CardContent, MenuItem, Select, Typography } from '@mui/material';
 import { LineChart } from '@mui/x-charts/LineChart';
+// import { ChartsReferenceLine } from '@mui/x-charts';
 import { useState } from 'react';
 
 const data = [
@@ -48,7 +49,7 @@ const EarningSummary = () => {
                 label: 'Same period last year',
                 color: '#9e9e9e',
                 showMark: false,
-                lineStyle: { strokeDasharray: '5 5' },
+                // lineStyle: { strokeDasharray: '5 5' },
               },
             ]}
             yAxis={[{
@@ -56,7 +57,7 @@ const EarningSummary = () => {
               labelStyle: { fontSize: 12 },
               tickMinStep: 100000,
               max: 300000,
-              tickValues: [0, 100000, 200000, 300000],
+              // tickValues: [0, 100000, 200000, 300000],
               valueFormatter: (value) => `${value / 1000}k Birr`,
             }]}
             sx={{
