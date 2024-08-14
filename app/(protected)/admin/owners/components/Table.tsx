@@ -19,11 +19,11 @@ import {
 } from '@mui/material';
 import { useState } from 'react';
 
-export default function OwnersTable({ ownerData }: { ownerData: any[] }) {
-  const [selectedUser, setSelectedUser] = useState(null);
+export default function OwnersTable({ ownerData }: { ownerData: { [key: string]: any }[] }) {
+  const [selectedUser, setSelectedUser] = useState<{ [key: string]: any } | null>(null);
 
 
-  const handleUserClick = (user) => {
+  const handleUserClick = (user: { [key: string]: any }) => {
     setSelectedUser(user);
   };
 
