@@ -12,7 +12,7 @@ export default function Home() {
         <div>
           <a
             href="/"
-            target="_blank"
+            
             rel="noopener noreferrer"
           >
             By{" "}
@@ -55,7 +55,7 @@ export default function Home() {
         <a
           href="/signup"
           className={styles.card}
-          target="_blank"
+          
           rel="noopener noreferrer"
         >
           <h2>
@@ -67,7 +67,7 @@ export default function Home() {
         <a
           href="/login"
           className={styles.card}
-          target="_blank"
+          
           rel="noopener noreferrer"
         >
           <h2>
