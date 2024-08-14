@@ -53,7 +53,7 @@ export default function Home() {
         </a> */}
 
         <a
-          href="http://localhost:3000/signup"
+          href="/signup"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
@@ -65,7 +65,7 @@ export default function Home() {
         </a>
 
         <a
-          href="http://localhost:3000/login"
+          href="/login"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
