@@ -61,7 +61,7 @@ export default function Home() {
           <h2>
             Signup <span>-&gt;</span>
           </h2>
-          <p>Create acount and sell your book</p>
+          <p>Create acount and sell your books</p>
         </a>
 
         <a
